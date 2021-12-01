@@ -1,0 +1,177 @@
+body {
+    font-family:"Montserrat";
+    text-align: center;
+}
+
+h1 h2 h3 {
+    font-family: Montserrat-bold;
+}
+
+h1{
+    
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+h2 {
+    padding: 3% 15% ;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+h3 {
+    
+    font-weight: bold;
+}
+
+p {
+    color: grey;
+}
+
+/* Big-Heading */
+
+.big-heading {
+    font-family:"Montserrat-Black";
+}
+
+#title {
+    background-color:#ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 5% 15%;
+}
+
+.navbar {
+    padding: 0 0 4rem;
+}
+
+.navbar-brand {
+    
+    font-family:"Ubuntu";
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family:"Ubuntu";
+}
+
+.download-btn {
+    margin: 10% 3% 5% 0;
+}
+
+.imgrotate {
+    transform: rotate(25deg);
+    width: 50%;
+    align-items: center;
+    position: absolute;
+    right:22%;
+}
+
+#features {
+    padding: 5% 15%;
+    position:relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.features-icon {
+    color: salmon; 
+    padding-bottom: 1rem; 
+}
+
+.features-icon:hover {
+    color:#ff4c68;
+}
+
+.features-box {
+    text-align: center;
+    padding: 4%;
+}
+
+#testimonials {
+    
+    font-family: sans-serif;
+    text-align: center;
+    background-color:salmon ;
+    color: #fff;
+}
+
+
+
+.testimonials-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 5%;
+}
+
+#press {
+    background-color:salmon ;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-image {
+    width: 12%;
+    margin: 2%;
+}
+
+#pricing {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+@media (max-width :1028px) {
+    #title {
+        text-align:center;
+    }
+    .imgrotate {
+        position: static;
+        transform: rotate(0);
+        padding-top: 3rem;
+    }
+}
+
+#cta {
+    text-align: center;
+    background-color:#ff4c68;
+    padding: 5% 20%;
+    color: #fff;
+}
+
+.cta-text {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.cta-btn {
+    margin: 10px;
+    margin-top: 2rem;
+}
+
+#footer {
+    text-align: center;
+    padding: 5% 15%;
+}
+
+.footer-icon {
+    margin: 10px;
+    margin-bottom: 1rem;
+} 
+
+
+
+
+
+
